@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+
+
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/groups_sec2.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/groups_sec3.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/hexbin.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/index.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/installingPython.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/numerical.html</loc>
+  </url>
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/schedule.html</loc>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/slides.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/syllabus.html</loc>
+  </url>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/viewingQuizResults.html</loc>
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:4000/assets/css/style.css</loc>
+  </url>
+  
+  
+</urlset>

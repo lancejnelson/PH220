@@ -1,0 +1,37 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: BYU-I Physics
+      external_url: https://www.byui.edu/physics
+    - title: Research Opportunities
+      url: /research
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Physics Major
+      folderitems:
+        - title: Computational Emphasis
+    - title: Classes
+      folderitems:
+        - title: PH121
+          external_url: https://byuiphysics.github.io/PH121
+        - title: PH123
+          external_url: https://byuiphysics.github.io/PH123
+        - title: PH323
+          external_url: https://byuiphysics.github.io/PH323
+        - title: PH385
+          external_url: https://byuiphysics.github.io/PH385
+    - title: Resources
+      folderitems:
+        - title: Python Book
+          external_url: https://byuiphysics.github.io/pythonbook 
+        - title: Installing Python
+          external_url: https://byuiphysics.github.io/main/installingPython.html
+        - title: Bash
+          url: /p2_landing_page.html
+        - title: PH385 Lab Manual
+          external_url: https://byuiphysics.github.io/PH385Book

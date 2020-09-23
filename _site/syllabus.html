@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Summary of content and grading policies.">
+<meta name="keywords" content="course_docs,  documentation theme, jekyll, technical writers, help authoring tools, hat replacements">
+<title>Course Syllabus | PH121</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/boxshadowproperties.css">
+<!-- most color styles are extracted out to here -->
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Anchor.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.2.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="PH123" href="http://localhost:4000/feed.xml">
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> PH121</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
+                <!-- entries without drop-downs appear here -->
+
+
+
+
+                
+                
+                
+                <li><a href="https://www.byui.edu/physics" target="_blank" rel="noopener">BYU-I Physics</a></li>
+                
+                
+                
+                <li><a href="research">Research Opportunities</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Physics Major<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="">Computational Emphasis</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Classes<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="https://byuiphysics.github.io/PH121" target="_blank" rel="noopener">PH121</a></li>
+                        
+                        
+                        
+                        <li><a href="https://byuiphysics.github.io/PH123" target="_blank" rel="noopener">PH123</a></li>
+                        
+                        
+                        
+                        <li><a href="https://byuiphysics.github.io/PH323" target="_blank" rel="noopener">PH323</a></li>
+                        
+                        
+                        
+                        <li><a href="https://byuiphysics.github.io/PH385" target="_blank" rel="noopener">PH385</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li><a href="https://byuiphysics.github.io/pythonbook" target="_blank" rel="noopener">Python Book</a></li>
+                        
+                        
+                        
+                        <li><a href="https://byuiphysics.github.io/main/installingPython.html" target="_blank" rel="noopener">Installing Python</a></li>
+                        
+                        
+                        
+                        <li><a href="p2_landing_page.html">Bash</a></li>
+                        
+                        
+                        
+                        <li><a href="https://byuiphysics.github.io/PH385Book" target="_blank" rel="noopener">PH385 Lab Manual</a></li>
+                        
+                        
+                    </ul>
+                </li>
+                
+                
+                
+                <!--comment out this block if you want to hide search-->
+                <li>
+                    <!--start search-->
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="Course Syllabus">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search-->
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+  <div id="main">
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+<ul id="mysidebar" class="nav">
+  <li class="sidebarTitle"> </li>
+  
+  
+  
+      
+  
+  <li>
+      <a title="General Information" href="#">General Information</a>
+      <ul>
+          
+          
+          
+          <li><a title="Contact Info" href="https://web.byui.edu/Directory/Employee/nelsonla" target="_blank" rel="noopener">Contact Info</a></li>
+          
+          
+          
+          
+          
+          
+          <li class="active"><a title="Syllabus" href="syllabus.html">Syllabus</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Course Schedule" href="schedule.html">Course Schedule</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Groups - Section 2 (9:00)" href="groups_sec2.html">Groups - Section 2 (9:00)</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Groups - Section 3 (10:15)" href="groups_sec3.html">Groups - Section 3 (10:15)</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Course Materials" href="#">Course Materials</a>
+      <ul>
+          
+          
+          
+          <li><a title="Slides" href="slides.html">Slides</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Equation Sheet" href="files\equation_sheet.pdf">Equation Sheet</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Written Homework Rubric" href="files\PH121_Homework_Grading_Rubric.pdf">Written Homework Rubric</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Numerical Homework Rubric" href="files\PH121_Numerical_Grading_Rubric.pdf">Numerical Homework Rubric</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Pattern for Written HW Problems" href="files\3DBESNUB.pdf">Pattern for Written HW Problems</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Apptitude Quiz" href="https://byui.instructure.com/courses/58656/quizzes/829691?module_item_id=5545962" target="_blank" rel="noopener">Apptitude Quiz</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Gradebook" href="https://byui.instructure.com/courses/58656/gradebook" target="_blank" rel="noopener">Gradebook</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Textbook/HW access" href="https://byui.instructure.com/courses/58656/modules/items/7280394" target="_blank" rel="noopener">Textbook/HW access</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Numerical Problems" href="#">Numerical Problems</a>
+      <ul>
+          
+          
+          
+          <li><a title="Week 1 - Basic Math in Python" href="files\numericalHW\basicMath.pdf">Week 1 - Basic Math in Python</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Week 2 - Python is your calculator" href="files\numericalHW\doaHWProbleminPython.pdf">Week 2 - Python is your calculator</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Week 3 - Vectors" href="files\numericalHW\vectors.pdf">Week 3 - Vectors</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+  
+  <li>
+      <a title="Weekly Quizzes" href="#">Weekly Quizzes</a>
+      <ul>
+          
+          
+          
+          <li><a title="View Past Quiz Results" href="viewingQuizResults.html">View Past Quiz Results</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Week 2" href="https://byui.instructure.com/courses/58656/assignments/1975483" target="_blank" rel="noopener">Week 2</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Week 3" href="https://byui.instructure.com/courses/58656/assignments/1975487" target="_blank" rel="noopener">Week 3</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Week 4" href="https://byui.instructure.com/courses/58656/assignments/1975491" target="_blank" rel="noopener">Week 4</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Week 5" href="https://byui.instructure.com/courses/58656/assignments/1975495" target="_blank" rel="noopener">Week 5</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Week 6" href="https://byui.instructure.com/courses/58656/assignments/1975499" target="_blank" rel="noopener">Week 6</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Week 7" href="https://byui.instructure.com/courses/58656/assignments/1975503" target="_blank" rel="noopener">Week 7</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Week 8" href="https://byui.instructure.com/courses/58656/assignments/1975507" target="_blank" rel="noopener">Week 8</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Week 9" href="https://byui.instructure.com/courses/58656/assignments/1975511" target="_blank" rel="noopener">Week 9</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Week 10" href="https://byui.instructure.com/courses/58656/assignments/1975469" target="_blank" rel="noopener">Week 10</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Week 12" href="https://byui.instructure.com/courses/58656/assignments/1975473" target="_blank" rel="noopener">Week 12</a></li>
+          
+          
+          
+          
+          
+          
+          <li><a title="Week 13" href="https://byui.instructure.com/courses/58656/assignments/1975477" target="_blank" rel="noopener">Week 13</a></li>
+          
+          
+          
+          
+      </ul>
+   </li>
+     
+      
+      
+      <!-- if you aren't using the accordion, uncomment this block:
+         <p class="external">
+             <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+         </p>
+         -->
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+            </div>
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-md-9" id="tg-sb-content">
+            <div class="post-header">
+   <h1 class="post-title-main">Course Syllabus</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+    <div class="summary">Summary of content and grading policies.</div>
+   
+
+    
+    
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+<div id="toc"></div>
+
+    
+
+
+    
+
+   <h2 id="course-introduction">Course Introduction</h2>
+
+<p>This course is the first semester in the Principles of Physics
+sequence. The course is designed for students majoring in the
+disciplines of science, engineering, and mathematics. The course will
+cover the following topics: Newton’s Laws, linear and circular motion,
+forces, conservation of energy, conservation of momentum, and
+gravity. These areas of study are important in a wide variety of
+engineering and scientific disciplines.</p>
+
+<h2 id="course-materials">Course Materials</h2>
+
+<p>The required material for this class include:</p>
+<ul>
+  <li>Textbook: <strong><em>Physics for Scientists and Engineers, 4<sup>th</sup> ed., by Randall D. Knight.</em></strong><br />
+We will be covering chapters 1-13 in this book.</li>
+  <li>Access to Mastering Physics: Homework problem sets are delivered to you via this website.</li>
+</ul>
+
+<p>It is intended that you will access both the textbook <strong>and</strong>
+mastering physics via this iLearn link: <a href="https://byui.instructure.com/courses/58656/modules/items/5545948">Mastering
+Physics</a>.</p>
+
+<h2 id="course-outcomes">Course Outcomes</h2>
+
+<p>This course focuses on the following five fundamental areas of
+Newtonian physics: Newton’s laws, conservation of energy, conservation
+of momentum, rotational motion, and orbital motion. Additionally,
+there is a strong emphasis on graphical and numerical analysis in the
+context of introductory Newtonian mechanics. Specifically, after
+taking this course, you should:</p>
+
+<ol>
+  <li>have a strong conceptual understanding of Newtonian mechanics.</li>
+  <li>have strong problem-solving skills.</li>
+  <li>be able to use dimensional analysis as a problem-solving tool.</li>
+  <li>be able to work productively in a group setting.</li>
+  <li>become comfortable using a computer to perform calculations and solve problems.</li>
+  <li>be comfortable using graphical analysis to:
+    <ul>
+      <li>enhance your understanding of motion and forces.</li>
+      <li>extract meaningful relationships from data.</li>
+      <li>represent solutions.</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>You should have already completed or are currently enrolled in MATH 112 (Calculus).</p>
+
+<p>Note: Of necessity, we will use calculus before it is covered in a
+ concurrent MATH 112 class. While concurrent registration of MATH 112
+ does satisfy the pre-requisite for this class, my experience strongly
+ indicates that those who have completed MATH 112 before taking this
+ class perform better. If you are taking MATH 112 concurrently, I am
+ not encouraging you to drop this class. Rather, you should prepare
+ yourself to learn some calculus in this class before you encounter it
+ in your math class. I am happy to help in this process and I plan to
+ teach the needed math as it presents itself, but you will need to
+ maintain a positive, I-can-learn-new-things attitude to succeed.</p>
+
+<h2 id="schedule">Schedule</h2>
+
+<p>In accordance with the BYU-Idaho learning model, the schedule for this
+class has been designed to give the student opportunities to prepare
+to learn, teach other students, and ponder on previously-covered
+material. This class is scheduled to meet every day. However we will
+only cover new material every other day (lecture days). On lecture
+days you should come prepared to take a warm-up quiz and participate
+in a discussion. Prepared means that you have studied the reading
+material thoroughly and are prepared to teach the concepts that you
+understand and ask clearly-articulated questions regarding the
+concepts that you don’t. Our discussions on lecture days will be
+carefully crafted to give you ample opportunity to ask questions and
+teach fellow classmates.  On the days in between lecture days you will
+be split up into groups and each group will be given a homework
+problem to work on at the board. Each group will work together on
+their assigned problem and prepare to teach the rest of the class
+about their problem. I will be there the entire time to guide your
+work and discussion. Your attendance on these days will be crucial to
+your learning experience.  The pattern of reading before class
+(preparing to learn), participating in class discussions (teach one
+another), and group problem solving(ponder and prove) is the
+foundation of the learning model and has shown to provide the
+appropriate learning pace.</p>
+
+<h2 id="grades">Grades</h2>
+
+<p>If you hit these grade boundaries, you are guaranteed to get the grade
+shown.  I may make the grading scale more generous than what is shown,
+if it seems appropriate, but I will not make it less generous</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Standard BYU-Idaho Grading Scale</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>94-100%    A        90 - 93.9% A-     87 - 89.9% B+</td>
+    </tr>
+    <tr>
+      <td>83-86.9%   B        80 - 82.9% B-    77 - 79.9% C+</td>
+    </tr>
+    <tr>
+      <td>73-76.9%   C        70 - 72.9% C-     67 - 69.9% D+</td>
+    </tr>
+    <tr>
+      <td>63-66.9%   D        90 - 93.9% D-     Below 60% F</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Your grades will be determined according to the following weights:</p>
+
+<h3 id="weekly-quizzes-assessment---50">Weekly quizzes (assessment) - 50%</h3>
+
+<p>Quizzes are given on a weekly basis, and can be accessed via
+iLearn. (see <a href="https://byui.instructure.com/courses/58656/modules">here</a> These quizzes will be made available
+starting on Tuesday and closing Friday evening. Content mastery from
+the previous week’s objectives as well as the least-mastered
+objectives from the preceding three weeks will be assessed on these
+quizzes. You will be allowed two attempts for weekly quizzes. You are
+not at any time to consult <strong><em>the book</em></strong>, <strong><em>the internet</em></strong>, or any other
+individual. However, because it is a take-home assessment, you do have
+the freedom to take the quiz over a time frame of your choosing. If
+you complete a portion of the quiz and want to step away for a nap or
+a snack before returning, you are free to do so. However, you are
+responsible to ensure that you do not come in contact with any
+information (people, internet, text, etc.) that would change how you
+would respond to a question.</p>
+
+<p>I reserve the right to require you to take the quiz in the testing
+center so it can be proctored by a third party.</p>
+
+<h4 id="receiving-partial-credit">Receiving partial credit</h4>
+
+<p>Often, a minor error in your work will result in an incorrect answer
+and therefore the computer will award zero points for that problem. In
+those situations, I am happy to award partial credit based on how
+severe your error was. In order to receive this credit you must:</p>
+
+<ul>
+  <li>Provide your original work that led to the incorrect answer.</li>
+  <li>Using a pen (something different from your original work), annotate your original work to indicate the exact nature of your error and how you should have done it</li>
+</ul>
+
+<p>You will have a week after the quiz closes to turn in this
+document. Your quiz grades and my solutions to the problems can be
+found on iLearn after the quiz closes. You may use these solutions to
+help determine what your error was.</p>
+
+<h3 id="homework-assignments-ponder-and-prove---25">Homework Assignments (ponder and prove) - 25%</h3>
+
+<p>Homework assignments are given on a weekly basis and are due at the
+beginning of class every Tuesday. There are two components to HW
+assignments: a written portion and a numerical portion.  The written
+portion of the homework accounts for 15 of the 25 possible points and
+the numerical portion of the homework accounts for the other 10
+points.</p>
+
+<h4 id="written-homework--15-out-of-25-points">Written Homework  (15 out of 25 points)</h4>
+
+<p>The written portion of your homework consists of
+a set of problems, chosen by you, with point values adding up to 15
+points.  A bank of problems will be categorized and made available to
+you.  Each problem will carry a point value (typically 1, 2, or 3
+points depending on the level of difficulty and estimated completion
+time. To receive full credit for your assignment you must choose
+enough problems so that the points sum to 15 or greater. This means
+that you are not required to complete all of the assigned problems,
+only those of your choosing up to 15 points. This model for homework
+is used for several reasons:</p>
+
+<ul>
+  <li>Giving you the freedom to choose which problems to work on will streamline your workload and help promote efficiency. Some students master certain concepts faster than others and I want those students to have the freedom to move on to other objectives as they see fit.</li>
+  <li>Capping the point value at 25 helps me ensure that the load I am putting on the student is fair and in accordance with the number of course credits.</li>
+  <li>Frequently, students will ask me to provide them additional problems for more practice on a particularly difficult principle that they are struggling with. With this model, I can assign as many problems as I want without fear of overloading the class, but at the same time providing ample practice for those students that desire it.</li>
+</ul>
+
+<p>Homework is not an assessment!  I want you to know, at the moment you
+finish a homework problem, if you have done the problem correctly or
+not.  This will allow you to quickly see which concepts are clicking
+for you and which ones aren’t. To help facilitate this I will be
+allowing you to grade your own HW assignments. To do this, you must
+fill out and attach a rubric (found <a href="https://lancejnelson.github.io/PH121/files/PH121_Homework_Grading_Rubric.pdf">here</a>) to the
+front of each homework assignment.  A side benefit of this system is
+that you are not without your HW for an extended period of time and
+can therefore use it as a reference as needed.</p>
+
+<p>When attacking a problem, practice good problem solving skills: draw
+pictures of the problems, write and solve equations with symbols as
+much as possible before plugging in numbers, write neatly, and use
+plenty of space. Substitute units with your numbers into your algebra,
+and check to see that the units work out right on your final
+answer. Think about whether your final answer makes physical sense
+before submitting it.  A guide for how to correctly complete a HW
+problem can be found <a href="https://lancejnelson.github.io/PH121/files/3DBESNUB.pdf">here</a>.</p>
+
+<p>You are strongly encouraged to work with other students on homework
+problems; however, don’t copy others’ work (this includes work found
+from a Google search) or allow others to copy your work. If you do get
+help on a homework problem, be sure to learn the strategy, concepts
+and steps used to solve the problem, and think about how they would
+apply to related situations.</p>
+
+<h4 id="numerical-component-10-out-of-the-25-points">Numerical Component (10 out of the 25 points)</h4>
+
+<p>Several years ago, the physics department as a whole decicded the
+numerical skills needed to be a part of every course in the physics
+curriculum.  To conform with this standard, each week you will be
+given a numerical problem to complete.  These problems can be found on
+the course <a href="https://lancejnelson.github.io/PH121">website</a> and will account for 10/25 weekly
+points for homework.  Use the grading rubric found
+<a href="https://lancejnelson.github.io/PH121/files/PH121_Numerical_Grading_Rubric.pdf">here</a> to grade your performance on these
+assignments.</p>
+
+<h3 id="warm-up-quizzes-prepare---10">Warm-up Quizzes (prepare) - 10%</h3>
+
+<p>Our discussions on lecture days will include periodic questions that
+you must answer together in groups using the IFAT scratch-off
+system. (they’re a lot of fun) Each incorrect scratch will receive a
+$1/4$ point deduction.  These quizzes are not meant to be stressful or
+to pull your grade down significantly.  In my experience, those
+students that come and participate, do well in this grade category.
+Groups will be assigned by the end of the first week and will remain
+unchanged throughout the semester.  If you are having a problem with a
+member of your group and would like a change, please see me privately.
+The four lowest grades on these quizzes will be dropped from your
+final grade.</p>
+
+<h3 id="participation-teach-one-another---10">Participation (teach one another) - 10%</h3>
+
+<p>On workdays, you will be given time to work on homework problems.
+These HW problems are posted on Mastering Physics.  Each day, a
+student from each group will be randomly selected to present the
+solution to a problem to someone that is not a member of the group.
+Once this has been completed, you will be given a ticket.  At the end
+of the semester, you will turn in your tickets to receive credit for
+your participation.</p>
+
+<h2 id="late-work">Late Work</h2>
+
+<p>All assignments are due at the beginning of class on the date marked
+on the schedule. If the due date changes I will notify you in class
+and via email. To allow for emergencies or adding the class late, you
+will get two free late assignments; after that, late work only counts
+for half credit. Late work will only be accepted for two weeks after
+the original due date. No homework assignments will be dropped. When
+turning in late homework please put the word “Late” at the top.</p>
+
+<h2 id="extra-credit">Extra Credit</h2>
+
+<p>Often students ask for opportunities for extra credit. Here is your
+chance. This opportunity is designed to help you become comfortable
+using a computer in a scientific setting and you’ll be asked to put
+away your calculator and use Python to perform all
+calculations. Python is a computer programming language very popular
+among scientists and engineers and this extra credit opportunity is
+designed to give you experience using it.  Here is the offer: For
+every HW assignment in which you only use python for calculations, I
+will award you 1/2% points on the final exam.</p>
+
+<h2 id="teaching-philosophy">Teaching Philosophy</h2>
+
+<p>Physics is fun. There is nothing quite like the feeling of empowerment
+that comes when you realize that you can solve challenging physical
+problems that are relevant and pertinent in real-world situations. It
+is my sincere desire that each of you experience this during your time
+in this class. The Holy Ghost will greatly enhance your learning
+experience if you prepare yourself to receive His inspiration. I make
+a concerted effort to be prepared in this way and I hope you will
+too. I have no desire to give anyone an undesirable grade and I will
+strive to give you every opportunity to demonstrate to me that you
+have learned the material to a satisfactory level. Your level of
+effort and the degree to which you demonstrate your understanding of
+the material are key factors for determining your grade.</p>
+
+<h2 id="university-policies">University Policies</h2>
+
+<h3 id="honor-code">Honor Code</h3>
+
+<p>The Honor code is a great blessing to all of us here at BYU-Idaho. It
+invites the Holy Ghost into the learning environment, which greatly
+enhances the learning experience. I encourage you to embrace this code
+of conduct and strive to fully live by its standards. I promise that
+you will receive rich blessings, both spiritual and temporal, as a
+result of your obedience in this area.  Among other things, living by
+the honor code involves:</p>
+
+<ul>
+  <li>
+    <p>Behaving professionally: I expect professional behavior in the classroom. If I see unprofessional behavior I will point it out to you so that you can start to learn what will be expected of you in a professional environment.  You can find BYU-Idaho’s standard on classroom etiquette here: <a href="http://www.byui.edu/catalog/#/policy/rJr8pVNTg?bc=true&amp;bcCurrent=Electronic%20Devices%20in%20the%20Classroom&amp;bcGroup=Academic%20Policies&amp;bcItemType=policies">Classroom Etiquette</a></p>
+  </li>
+  <li>
+    <p>Being honest: Plagiarism is a violation of the honor code and will merit a failing grade in the class. Plagiarism means using someone else’s work and pass it off as your own and will not be tolerated. This is a principle that transcends college and I would not be a good mentor to you if I did not teach it to you now. Do not use other’s work and turn it in to me as if it were your own. You can find BYU-Idaho’s standard on academic honesty here: <a href="http://www.byui.edu/catalog/#/policy/HJPtItSal?bc=true&amp;bcCurrent=Academic%20Honesty&amp;bcGroup=University%20Standards&amp;bcItemType=policies">Academic Honesty</a></p>
+  </li>
+  <li>
+    <p>Dress and Grooming: I expect you to fully abide by the University’s dress and grooming standards. If I notice that you are not in compliance, I will mention it to you. You can find BYU-Idaho’s dress and grooming standards here: <a href="http://www.byui.edu/catalog/#/policy/SkaRPKHTl?bc=true&amp;bcCurrent=Dress%20and%20Grooming%20Standards&amp;bcGroup=University%20Standards&amp;bcItemType=policies">Dress and Grooming</a></p>
+  </li>
+</ul>
+
+<h3 id="disabilities">Disabilities</h3>
+
+<p>BYU-Idaho does not discriminate against persons with disabilities in providing its educational and administrative services and programs, and follows applicable federal and state law. This policy extends to the University’s electronic and information technologies (EIT).</p>
+
+<p>Students with qualifying disabilities should contact the Disability Services Office at disabilityservices@byui.edu or 208-496-9210. Additional information about Disability Services resources can be found here: <a href="http://www.byui.edu/disability-services">Students with Disabilities</a></p>
+
+<h3 id="sexual-harassment">Sexual Harassment</h3>
+
+<p>BYU-Idaho prohibits sex discrimination against any participant in its education programs or activities. Prohibited sex discrimination includes incidents of sexual harassment (including sexual violence), dating violence, domestic violence, sexual assault, and stalking (collectively ‘‘sexual misconduct’’).</p>
+
+<p>As an instructor, one of my responsibilities is to help create a safe learning environment for my students and for the campus as a whole. University policy requires that I report all incidents of sexual misconduct that come to my attention. If you encounter sexual misconduct, please contact the Title IX Coordinator at titleix@byui.edu or 208-496-9200. Additional information about sexual misconduct and available resources can be found here: <a href="http://www.byui.edu/titleix">Sexual Harassment</a></p>
+
+
+
+    <div class="tags">
+        
+        <b>Tags: </b>
+        
+        
+        
+        
+        
+    </div>
+
+
+
+
+</div>
+
+<hr class="shaded"/>
+
+<!--<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2019 . All rights reserved. <br />
+<span>Page last updated:</span> July 9, 2019<br/> Site last generated: Sep 17, 2019 <br />
+<p><img src="images/company_logo.png" alt="Company logo"/></p>
+                </div>
+            </div>
+</footer>
+-->
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+    </div>
+
+</body>
+
+</html>

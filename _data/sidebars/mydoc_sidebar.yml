@@ -1,0 +1,174 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product:
+  version:
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: General Information
+    output: web, pdf
+    folderitems:
+    - title: Contact Info
+      external_url: https://web.byui.edu/Directory/Employee/nelsonla
+      output: web, pdf
+
+    - title: Syllabus
+      url: /syllabus.html
+      output: web, pdf
+      type: homepage
+
+    - title: Course Schedule
+      url: /schedule.html
+      output: web, pdf
+      type: homepage
+
+    - title: Groups - Section 2 (9:00)
+      url: /groups_sec2.html
+      output: web, pdf
+      type: homepage
+
+    - title: Groups - Section 3 (10:15)
+      url: /groups_sec3.html
+      output: web, pdf
+      type: homepage
+
+
+  - title: Course Materials
+    output: web, pdf
+    folderitems:
+    - title: Slides
+      url: /slides.html
+      output: web, pdf
+
+    - title: Equation Sheet
+      url: /files\/equation_sheet.pdf
+      output: web, pdf
+
+    - title: Written Homework Rubric
+      url: /files\/PH121_Homework_Grading_Rubric.pdf
+      output: web, pdf
+
+    - title: Numerical Homework Rubric
+      url: /files\/PH121_Numerical_Grading_Rubric.pdf
+      output: web, pdf
+
+    - title: Pattern for Written HW Problems
+      url: /files\/3DBESNUB.pdf
+      output: web, pdf
+
+    - title: Gradebook
+      external_url: https://byui.instructure.com/courses/91708/gradebook
+      output: web, pdf
+      type: homepage
+
+    - title: Textbook/HW access
+      external_url: https://byui.instructure.com/courses/91708/modules/items/9596302
+      output: web, pdf
+      type: homepage
+
+  - title: Numerical Problems
+    output: web, pdf
+    folderitems:
+    - title: Week 2 - Basic Math in Python
+      url: /files\/numericalHW\/basicMath.ipynb
+      output: web, pdf
+
+    - title: Week 3 - Vectors
+      url: /files\/numericalHW\/vectors.ipynb
+      output: web, pdf
+
+    # - title: Week 4 - Vectors
+    #   url: /files\/numericalHW\/vectors.pdf
+    #   output: web, pdf
+    #
+    # - title: Week 5 - Projectile Motion
+    #   url: /files\/numericalHW\/week4.pdf
+    #   output: web, pdf
+    #
+    # - title: Week 6 - Muzzle Velocity
+    #   url: /files\/numericalHW\/week5.pdf
+    #   output: web, pd
+    #
+    # - title: Week 7 - Data Fitting
+    #   url: /files\/numericalHW\/week6.pdf
+    #   output: web, pd
+    #
+    # - title: Week 8 - Euler's Method
+    #   url: /files\/numericalHW\/week7.pdf
+    #   output: web, pd
+    #
+    # - title: Week 9 - Euler's Method (Projectile Motion with Drag)
+    #   url: /files\/numericalHW\/week8.pdf
+    #   output: web, pd
+    #
+    # - title: Week 10 - Felix's Jump
+    #   url: /files\/numericalHW\/week9.pdf
+    #   output: web, pd
+    #
+    # - title: Week 12 - The Rocket
+    #   url: /files\/numericalHW\/week10.pdf
+    #   output: web, pd
+    #
+    # - title: Week 13 - Orbiting satellite
+    #   url: /files\/numericalHW\/week12.pdf
+    #   output: web, pd
+
+  - title: Weekly Quizzes
+    output: web, pdf
+    folderitems:
+    - title: View Past Quiz Results
+      url: /viewingQuizResults.html
+      output: web, pdf
+    - title: Week 2
+      external_url: https://byui.instructure.com/courses/91708/assignments/3502647
+      output: web, pdf
+    - title: Week 3
+      external_url: https://byui.instructure.com/courses/91708/assignments/3502651
+      output: web, pdf
+    - title: Week 4
+      external_url: https://byui.instructure.com/courses/91708/assignments/3502655
+      output: web, pdf
+    - title: Week 5
+      external_url: https://byui.instructure.com/courses/91708/assignments/3502659
+      output: web, pdf
+    - title: Week 6
+      external_url: https://byui.instructure.com/courses/91708/assignments/3502663
+      output: web, pdf
+    - title: Week 7
+      external_url: https://byui.instructure.com/courses/91708/assignments/3502667
+      output: web, pdf
+    - title: Week 8
+      external_url: https://byui.instructure.com/courses/91708/assignments/3502671
+      output: web, pdf
+    - title: Week 9
+      external_url: https://byui.instructure.com/courses/91708/assignments/3502675
+      output: web, pdf
+    - title: Week 10
+      external_url: https://byui.instructure.com/courses/91708/assignments/3502629
+      output: web, pdf
+    - title: Week 11
+      external_url: https://byui.instructure.com/courses/91708/assignments/3502633
+      output: web, pdf
+    - title: Week 12
+      external_url: https://byui.instructure.com/courses/91708/assignments/3502637
+      output: web, pdf
+    - title: Week 13
+      external_url: https://byui.instructure.com/courses/91708/assignments/3502641
+      output: web, pdf
+    - title: Final Exam
+      external_url: https://byui.instructure.com/courses/91708~/assignments/3502615
+      output: web, pdf
