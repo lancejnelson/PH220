@@ -12,7 +12,7 @@ folder: course_docs
 
 
 [Download PDF][download]
-{% include image.html file="schedule.png" url="https://lancejnelson.github.io/PH121/files/schedule.pdf"  %}
+{% include image.html file="schedule.png" url="https://lancejnelson.github.io/PH220/files/schedule.pdf"  %}
 
 [download]: ../files/schedule.pdf
 

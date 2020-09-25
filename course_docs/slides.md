@@ -10,13 +10,13 @@ folder: course_docs
 ---
 
 
- [Day 1 - Class Intro/Motion][day1]  
- [Day 2 - Position/Velocity/Acceleration][day2]  
- [Day 3 - Units/ Significant Figures][day3]  
-<!-- [Day 4 - Calculus of Motion][day4]  
- [Day 5 - Velocity to Position][day5]  
- [Day 6 - Kinematics][day6]  
- [Day 7 - Vectors][day7]  
+ [Day 1 - Class Intro][day1]  
+ [Day 2 - Charge][day2]  
+ [Day 3 - Coloumb's Law/Electric Fields][day3]  
+ [Day 4 - Dipoles/Continuous charge distributions][day4]  
+ [Day 5 - Special geometry charge distributions][day5]  
+ [Day 6 - Parallel-plate capacitor/ Charged particles in fields][day6]  
+<!-- [Day 7 - Vectors][day7]  
  [Day 8 - 2DKinematics][day8]  
  [Day 9 - Uniform Circular Motion][day9]  
  [Day 10 - Nonuniform Circular Motion][day10]  
@@ -44,12 +44,12 @@ folder: course_docs
 [Day 30 - Gravitational Potential Energy][day31]  
 [Day 31 - Final Review][day32] --->
 
-[day1]: ../course_docs/slides/D1-IntroToPH121.pdf  
-[day2]: ../course_docs/slides/D2-Position_Velocity_Acceleration_MDs.pdf  
-[day3]: ../course_docs/slides/Day3-Units-SigFigs.pdf  
-[day4]: ../course_docs/slides/D4-Calc_of_Motion.pdf  
-[day5]: ../course_docs/slides/D5-Velocity_to_Position.pdf  
-[day6]: ../course_docs/slides/D6-Kinematics.pdf  
+[day1]: ../course_docs/slides/D1-IntroToPH220.pdf  
+[day2]: ../course_docs/slides/D2-Charge.pdf  
+[day3]: ../course_docs/slides/Day3-ColoumbsLaw.pdf  
+[day4]: ../course_docs/slides/D4-Continuous_Charge_Distributions.pdf  
+[day5]: ../course_docs/slides/D5-Special_Geometry.pdf  
+[day6]: ../course_docs/slides/D6-Parallel_Plate_Capacitor.pdf  
 [day7]: ../course_docs/slides/D7-Vectors.pdf  
 [day8]: ../course_docs/slides/D8-2DKinematics.pdf    
 [day9]: ../course_docs/slides/D9-Uniform_Circular_Motion.pdf    

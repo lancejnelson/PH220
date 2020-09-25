@@ -36,16 +36,6 @@ entries:
       output: web, pdf
       type: homepage
 
-    - title: Groups - Section 2 (9:00)
-      url: /groups_sec2.html
-      output: web, pdf
-      type: homepage
-
-    - title: Groups - Section 3 (10:15)
-      url: /groups_sec3.html
-      output: web, pdf
-      type: homepage
-
 
   - title: Course Materials
     output: web, pdf
@@ -71,23 +61,23 @@ entries:
       output: web, pdf
 
     - title: Gradebook
-      external_url: https://byui.instructure.com/courses/91708/gradebook
+      external_url: https://byui.instructure.com/courses/106862/gradebook
       output: web, pdf
       type: homepage
 
     - title: Textbook/HW access
-      external_url: https://byui.instructure.com/courses/91708/modules/items/9596302
+      external_url: https://byui.instructure.com/courses/106862/modules/items/11400238
       output: web, pdf
       type: homepage
 
   - title: Numerical Problems
     output: web, pdf
     folderitems:
-    - title: Week 2 - Basic Math in Python
+    - title: Week 1 - Basic Math in Python
       url: /files\/numericalHW\/basicMath.ipynb
       output: web, pdf
 
-    - title: Week 3 - Vectors
+    - title: Week 2 - Vectors
       url: /files\/numericalHW\/vectors.ipynb
       output: web, pdf
 

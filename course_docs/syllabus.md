@@ -12,60 +12,46 @@ folder: course_docs
 
 ## Course Introduction
 
-This course is the first semester in the Principles of Physics
-sequence. The course is designed for students majoring in the
-disciplines of science, engineering, and mathematics. The course will
-cover the following topics: Newton's Laws, linear and circular motion,
-forces, conservation of energy, conservation of momentum, and
-gravity. These areas of study are important in a wide variety of
-engineering and scientific disciplines.
+
+This is the third course in the physics introductory sequence.  The course is designed for students majoring in the disciplines of science, engineering, and mathematics and will cover the  following topics:
+
+- electric and magnetic fields
+- circuit analysis
+- induced fields
+- Maxwell's equations
+- electromagnetic waves.
+
 
 ## Course Materials
 
-The required material for this class include:
-- Textbook: ***Physics for Scientists and Engineers, 4<sup>th</sup> ed., by Randall D. Knight.***  
-We will be covering chapters 1-13 in this book. 
-- Access to Mastering Physics: Homework problem sets are delivered to you via this website.
 
-It is intended that you will access both the textbook **and**
-mastering physics via this iLearn link: [Mastering
-Physics][onlineaccess].  
+- Textbook: The textbook and homework problems can both be accessed via this link. (Also found in the module entitled "Reference Materials".) If you took PH121 and/or PH123 here at BYU-Idaho you should have already paid for the materials and should not have to pay again.  Additionally, the bookstore has a copy of the textbook, in loose leaf form, available for purchase.  If you're like me, you prefer a hard copy of your textbook.  Purchase it if you'd like to.
+- Python:  We will use Python regularly in this class.  Download your free copy [here][python]. Alternatively, you can use python in the cloud via [Google Colaboratory][colab].
+Mathematica:  Mathematica is great when you want to make a pretty plot, which we often will want to do in this class.  Follow the instructions [here][mathematica] to get your free copy.
 
-[onlineaccess]: https://byui.instructure.com/courses/58656/modules/items/5545948
+[python]:https://www.anaconda.com/products/individual
+[colab]:colab.research.google.com
+[mathematica]:
 
 ## Course Outcomes
 
-This course focuses on the following five fundamental areas of
-Newtonian physics: Newton's laws, conservation of energy, conservation
-of momentum, rotational motion, and orbital motion. Additionally,
-there is a strong emphasis on graphical and numerical analysis in the
-context of introductory Newtonian mechanics. Specifically, after
-taking this course, you should:
-
-1. have a strong conceptual understanding of Newtonian mechanics.
-2. have strong problem-solving skills.
-3. be able to use dimensional analysis as a problem-solving tool.
-4. be able to work productively in a group setting.
-5. become comfortable using a computer to perform calculations and solve problems.
-6. be comfortable using graphical analysis to:
-   - enhance your understanding of motion and forces.
-   - extract meaningful relationships from data.
-   - represent solutions.
+This course focuses on the following five fundamental areas of Newtonian physics: Electric fields and potentials, Magnetic Fields, Current and Resistance,  and Circuits.  Additionally, there is a strong emphasis on graphical and numerical analysis in the context of introductory electricity and magnetism.  More specifically, after taking this course, you should:
+- understand the concept of a field, calculate electric forces and fields, and make plots of electric fields.
+- understand the concept of electric potential and be able to calculate the potential created by  point charges as well as continuous charge distributions.
+- understand Gauss's law and be able to use it to calculate the electric field for a symmetric charge distribution.
+- know what capacitors, resistors, inductors, current, and voltage are and be able to analyze complex electrical circuits.
+- understand how  electric and magnetic fields are induced and be able to make accurate calculations.
+- correctly calculate the magnetic field created by a current.
+- understand the concept of flux and correctly perform flux calculations.
+- understand the nature of light, including polarization, Poynting vectors and energy transfer via electromagnetic waves.
+- understand AC circuits and be able to correctly analyze them mathematically.
 
 ## Prerequisites
 
-You should have already completed or are currently enrolled in MATH 112 (Calculus).
+You should have already completed PH121 in a previous semester.  Additionally, you must be currently enrolled in MATH 113 or MATH 215.
 
- Note: Of necessity, we will use calculus before it is covered in a
- concurrent MATH 112 class. While concurrent registration of MATH 112
- does satisfy the pre-requisite for this class, my experience strongly
- indicates that those who have completed MATH 112 before taking this
- class perform better. If you are taking MATH 112 concurrently, I am
- not encouraging you to drop this class. Rather, you should prepare
- yourself to learn some calculus in this class before you encounter it
- in your math class. I am happy to help in this process and I plan to
- teach the needed math as it presents itself, but you will need to
- maintain a positive, I-can-learn-new-things attitude to succeed.
+Note: The first 1/3 of the semester is heavy on  calculus (with the occasional use of multi-variable calculus).  If you are taking MATH 113 or MATH 215 concurrently, you will need to prepare to work a little harder  during the first 1/3 of the semester.    I am happy to spend extra time for any student that is struggling.  Please reach out to me with a  positive, I-can-learn-new-things attitude and I'll bend over backwards to help you get it.
+
 
 ## Schedule
 
@@ -80,13 +66,20 @@ material thoroughly and are prepared to teach the concepts that you
 understand and ask clearly-articulated questions regarding the
 concepts that you don't. Our discussions on lecture days will be
 carefully crafted to give you ample opportunity to ask questions and
-teach fellow classmates.  On the days in between lecture days you will
+teach fellow classmates.
+
+On the days in between lecture days you will
 be split up into groups and each group will be given a homework
 problem to work on at the board. Each group will work together on
 their assigned problem and prepare to teach the rest of the class
 about their problem. I will be there the entire time to guide your
 work and discussion. Your attendance on these days will be crucial to
-your learning experience.  The pattern of reading before class
+your learning experience.  
+
+
+**New this semester:**  Mondays are the exception to our regular schedule.  On Mondays I will give you time to review the previous week's quiz in your groups.  I may also provide instruction on challenging HW or quiz problems on these days.
+
+The pattern of reading before class
 (preparing to learn), participating in class discussions (teach one
 another), and group problem solving(ponder and prove) is the
 foundation of the learning model and has shown to provide the
@@ -128,7 +121,7 @@ I reserve the right to require you to take the quiz in the testing
 center so it can be proctored by a third party.
 
 
-[quizzesLink]: https://byui.instructure.com/courses/58656/modules
+[quizzesLink]: https://byui.instructure.com/courses/106862/modules
 #### Receiving partial credit
 
 Often, a minor error in your work will result in an incorrect answer
@@ -167,7 +160,7 @@ only those of your choosing up to 15 points. This model for homework
 is used for several reasons:
 
 - Giving you the freedom to choose which problems to work on will streamline your workload and help promote efficiency. Some students master certain concepts faster than others and I want those students to have the freedom to move on to other objectives as they see fit.
-- Capping the point value at 25 helps me ensure that the load I am putting on the student is fair and in accordance with the number of course credits. 
+- Capping the point value at 25 helps me ensure that the load I am putting on the student is fair and in accordance with the number of course credits.
 - Frequently, students will ask me to provide them additional problems for more practice on a particularly difficult principle that they are struggling with. With this model, I can assign as many problems as I want without fear of overloading the class, but at the same time providing ample practice for those students that desire it.
 
 Homework is not an assessment!  I want you to know, at the moment you
@@ -180,7 +173,7 @@ front of each homework assignment.  A side benefit of this system is
 that you are not without your HW for an extended period of time and
 can therefore use it as a reference as needed.
 
-[hwRubric]: https://lancejnelson.github.io/PH121/files/PH121_Homework_Grading_Rubric.pdf
+[hwRubric]: https://lancejnelson.github.io/PH220/files/PH121_Homework_Grading_Rubric.pdf
 
 
 When attacking a problem, practice good problem solving skills: draw
@@ -200,6 +193,9 @@ from a Google search) or allow others to copy your work. If you do get
 help on a homework problem, be sure to learn the strategy, concepts
 and steps used to solve the problem, and think about how they would
 apply to related situations.
+
+
+New this semester:  I recognize that 15 points may not be enough for some of you to master a given topic.  For others, it might be just right.  I encourage you to do as many problems as you need to master a topic. If you choose to do more than 15 points for HW, I will increase your weekly quiz score by 2% for every 1 extra point you complete.  (i.e.  If you want to get a 10% bump on your weekly quiz, you need to do 5 extra points on your HW.) 
 
 #### Numerical Component (10 out of the 25 points)
 
