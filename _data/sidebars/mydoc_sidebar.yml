@@ -81,7 +81,7 @@ entries:
       url: /course_docs\/numericalHW\/manyPointCharges.ipynb
       output: web, pdf
 
-     - title: Week 3 - One-dimensional Plots
+     - title: "Week 3 - One-dimensional Plots"
        url: /course_docs\/numericalHW\/oneDplot.ipynb
        output: web, pdf
     #
