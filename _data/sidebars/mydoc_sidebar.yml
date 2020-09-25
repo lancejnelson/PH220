@@ -74,16 +74,16 @@ entries:
     output: web, pdf
     folderitems:
     - title: Week 1 - Basic Math in Python
-      url: /files\/numericalHW\/basicMath.ipynb
+      url: /course_docs\/numericalHW\/basicMath.ipynb
       output: web, pdf
 
-    - title: Week 2 - Vectors
-      url: /files\/numericalHW\/vectors.ipynb
+    - title: Week 2 - Many Point Charges (loops)
+      url: /course_docs\/numericalHW\/manyPointCharges.ipynb
       output: web, pdf
 
-    # - title: Week 4 - Vectors
-    #   url: /files\/numericalHW\/vectors.pdf
-    #   output: web, pdf
+     - title: Week 4 - One-dimensional Plots
+       url: /course_docs\/numericalHW\/oneDplot.ipynb
+       output: web, pdf
     #
     # - title: Week 5 - Projectile Motion
     #   url: /files\/numericalHW\/week4.pdf
@@ -116,4 +116,3 @@ entries:
     # - title: Week 13 - Orbiting satellite
     #   url: /files\/numericalHW\/week12.pdf
     #   output: web, pd
-
