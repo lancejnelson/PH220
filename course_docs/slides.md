@@ -16,8 +16,8 @@ folder: course_docs
  [Day 4 - Dipoles/Continuous charge distributions][day4]  
  [Day 5 - Special geometry charge distributions][day5]  
  [Day 6 - Parallel-plate capacitor/ Charged particles in fields][day6]  
-<!-- [Day 7 - Vectors][day7]  
- [Day 8 - 2DKinematics][day8]  
+ [Day 7 - Electric Flux][day7]  
+<!-- [Day 8 - 2DKinematics][day8]  
  [Day 9 - Uniform Circular Motion][day9]  
  [Day 10 - Nonuniform Circular Motion][day10]  
  [Day 11 - Newton's Laws][day11]    
@@ -50,7 +50,7 @@ folder: course_docs
 [day4]: ../course_docs/slides/D4-Continuous_Charge_Distributions.pdf  
 [day5]: ../course_docs/slides/D5-Special_Geometry.pdf  
 [day6]: ../course_docs/slides/D6-Parallel_Plate_Capacitor.pdf  
-[day7]: ../course_docs/slides/D7-Vectors.pdf  
+[day7]: ../course_docs/slides/D7-Electric_Flux.pdf  
 [day8]: ../course_docs/slides/D8-2DKinematics.pdf    
 [day9]: ../course_docs/slides/D9-Uniform_Circular_Motion.pdf    
 [day10]: ../course_docs/slides/D10-Nonuniform_Circular_Motion.pdf    
