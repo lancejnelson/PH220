@@ -85,9 +85,9 @@ entries:
       url: /course_docs\/numericalHW\/oneDplot.ipynb
       output: web, pdf
    
-     - title: Week 4 - Advanced Plotting
-       url: /files\/numericalHW\/eFieldPlot.ipynb
-       output: web, pdf
+    - title: Week 4 - Advanced Plotting
+      url: /files\/numericalHW\/eFieldPlot.ipynb
+      output: web, pdf
     #
     # - title: Week 6 - Muzzle Velocity
     #   url: /files\/numericalHW\/week5.pdf
