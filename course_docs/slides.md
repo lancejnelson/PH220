@@ -17,8 +17,8 @@ folder: course_docs
  [Day 5 - Special geometry charge distributions][day5]  
  [Day 6 - Parallel-plate capacitor/ Charged particles in fields][day6]  
  [Day 7 - Electric Flux][day7]  
-<!-- [Day 8 - 2DKinematics][day8]  
- [Day 9 - Uniform Circular Motion][day9]  
+ [Day 8 - Gauss's Law][day8]  
+<!-- [Day 9 - Uniform Circular Motion][day9]  
  [Day 10 - Nonuniform Circular Motion][day10]  
  [Day 11 - Newton's Laws][day11]    
  [Day 12 - Newton's Second Law][day12]  
@@ -51,7 +51,7 @@ folder: course_docs
 [day5]: ../course_docs/slides/D5-Special_Geometry.pdf  
 [day6]: ../course_docs/slides/D6-Parallel_Plate_Capacitor.pdf  
 [day7]: ../course_docs/slides/D7-Electric_Flux.pdf  
-[day8]: ../course_docs/slides/D8-2DKinematics.pdf    
+[day8]: ../course_docs/slides/D8-Gauss_Law.pdf    
 [day9]: ../course_docs/slides/D9-Uniform_Circular_Motion.pdf    
 [day10]: ../course_docs/slides/D10-Nonuniform_Circular_Motion.pdf    
 [day11]: ../course_docs/slides/D11-Newtons_Laws.pdf    
