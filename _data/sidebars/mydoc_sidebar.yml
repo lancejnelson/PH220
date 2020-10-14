@@ -90,8 +90,8 @@ entries:
       output: web, pdf
 
     - title: Week 5 - 3D Plot (Electric Potential)
-       url: /course_doccs\/numericalHW\/potentialPlot.ipynp
-       output: web, pd
+      url: /course_doccs\/numericalHW\/potentialPlot.ipynp
+      output: web, pd
     #
     # - title: Week 7 - Data Fitting
     #   url: /files\/numericalHW\/week6.pdf
