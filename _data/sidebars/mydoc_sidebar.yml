@@ -84,14 +84,14 @@ entries:
     - title: "Week 3 - One-dimensional Plots"
       url: /course_docs\/numericalHW\/oneDplot.ipynb
       output: web, pdf
-   
+
     - title: Week 4 - Advanced Plotting
-      url: /files\/numericalHW\/eFieldPlot.ipynb
+      url: /course_docs\/numericalHW\/eFieldPlot.ipynb
       output: web, pdf
-    #
-    # - title: Week 6 - Muzzle Velocity
-    #   url: /files\/numericalHW\/week5.pdf
-    #   output: web, pd
+
+    - title: Week 5 - 3D Plot (Electric Potential)
+       url: /course_doccs\/numericalHW\/potentialPlot.ipynp
+       output: web, pd
     #
     # - title: Week 7 - Data Fitting
     #   url: /files\/numericalHW\/week6.pdf
