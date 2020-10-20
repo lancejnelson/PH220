@@ -94,7 +94,7 @@ entries:
       output: web, pd
 
     - title: Week 6 - Contour Plots
-      url: /course_docs\/numericalHW\/ContourPlots.pdf
+      url: /course_docs\/numericalHW\/ContourPlot.ipynb
       output: web, pd
     #
     # - title: Week 8 - Euler's Method
