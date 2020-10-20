@@ -85,17 +85,17 @@ entries:
       url: /course_docs\/numericalHW\/oneDplot.ipynb
       output: web, pdf
 
-    - title: Week 4 - Advanced Plotting
+    - title: Week 4 - Vector Field Plots
       url: /course_docs\/numericalHW\/eFieldPlot.ipynb
       output: web, pdf
 
     - title: Week 5 - 3D Plot (Electric Potential)
-      url: /course_doccs\/numericalHW\/potentialPlot.ipynp
+      url: /course_docs\/numericalHW\/potentialPlot.ipynp
       output: web, pd
-    #
-    # - title: Week 7 - Data Fitting
-    #   url: /files\/numericalHW\/week6.pdf
-    #   output: web, pd
+
+    - title: Week 6 - Contour Plots
+      url: /course_docs\/numericalHW\/ContourPlots.pdf
+      output: web, pd
     #
     # - title: Week 8 - Euler's Method
     #   url: /files\/numericalHW\/week7.pdf
