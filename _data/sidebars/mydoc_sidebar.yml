@@ -97,13 +97,13 @@ entries:
       url: /course_docs\/numericalHW\/ContourPlot.ipynb
       output: web, pd
     #
-    # - title: Week 8 - Euler's Method
-    #   url: /files\/numericalHW\/week7.pdf
-    #   output: web, pd
+    - title: Week 7 - Euler's Method
+      url: /course_docs\/numericalHW\/Eulers.ipynb
+      output: web, pd
     #
-    # - title: Week 9 - Euler's Method (Projectile Motion with Drag)
-    #   url: /files\/numericalHW\/week8.pdf
-    #   output: web, pd
+    - title: Week 9 - Fitting to Data and Extracting information
+      url: /course_docs\/numericalHW\/CurveFitting.ipynb
+      output: web, pd
     #
     # - title: Week 10 - Felix's Jump
     #   url: /files\/numericalHW\/week9.pdf
