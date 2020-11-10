@@ -101,13 +101,13 @@ entries:
       url: /course_docs\/numericalHW\/Eulers.ipynb
       output: web, pd
     #
-    - title: Week 9 - Fitting to Data and Extracting information
+    - title: Week 8 - Fitting to Data and Extracting information
       url: /course_docs\/numericalHW\/CurveFitting.ipynb
       output: web, pd
-    #
-    # - title: Week 10 - Felix's Jump
-    #   url: /files\/numericalHW\/week9.pdf
-    #   output: web, pd
+    
+    - title: Week 9 - Plotting the magnetic field
+      url: /course_docs\/numericalHW\/PlotBField.ipynb
+      output: web, pd
     #
     # - title: Week 12 - The Rocket
     #   url: /files\/numericalHW\/week10.pdf
