@@ -109,9 +109,9 @@ entries:
       url: /course_docs\/numericalHW\/PlotBField.ipynb
       output: web, pd
     #
-    # - title: Week 12 - The Rocket
-    #   url: /files\/numericalHW\/week10.pdf
-    #   output: web, pd
+    - title: Week 10 - Curve Fitting... Again
+      url: /course_docs\/numericalHW\/curveFitBField.ipynb
+      output: web, pd
     #
     # - title: Week 13 - Orbiting satellite
     #   url: /files\/numericalHW\/week12.pdf
