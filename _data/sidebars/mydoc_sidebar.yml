@@ -113,6 +113,6 @@ entries:
       url: /course_docs\/numericalHW\/curveFitBField.ipynb
       output: web, pd
     #
-    # - title: Week 13 - Orbiting satellite
-    #   url: /files\/numericalHW\/week12.pdf
-    #   output: web, pd
+    - title: Week 12 - Cyclotron motion
+      url: /course_docs\/numericalHW\/cyclotron.ipynb
+      output: web, pd
