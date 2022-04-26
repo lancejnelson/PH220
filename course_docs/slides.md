@@ -40,7 +40,7 @@ folder: course_docs
 
 [day1]: ../course_docs/slides/D1-IntroToPH220.pdf  
 [day2]: ../course_docs/slides/D2-Charge.pdf  
-[day3]: ../course_docs/slides/Day3-ColoumbsLaw.pdf  
+[day3]: ../course_docs/slides/D3-ColoumbsLaw.pdf  
 [day4]: ../course_docs/slides/D4-Continuous_Charge_Distributions.pdf  
 [day5]: ../course_docs/slides/D5-Special_Geometry.pdf  
 [day6]: ../course_docs/slides/D6-Parallel_Plate_Capacitor.pdf  
