@@ -14,9 +14,9 @@ folder: course_docs
  [Day 2 - Charge][day2]  
  [Day 3 - Coloumb's Law/Electric Fields][day3]  
  [Day 4 - Dipoles/Continuous charge distributions][day4]  
- <!--- [Day 5 - Special geometry charge distributions][day5] -->  
- <!--- [Day 6 - Parallel-plate capacitor/ Charged particles in fields][day6] -->  
- <!--- [Day 7 - Electric Flux][day7]  -->
+ [Day 5 - Special geometry charge distributions][day5] 
+ [Day 6 - Parallel-plate capacitor/ Charged particles in fields][day6] 
+ [Day 7 - Electric Flux][day7]  
  <!--- [Day 8 - Gauss's Law][day8]  -->
  <!--- [Day 9 - Electric Potential Energy][day9]-->  
  <!--- [Day 10 - Electric Potential][day10]  -->
