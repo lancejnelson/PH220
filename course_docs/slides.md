@@ -18,10 +18,10 @@ folder: course_docs
  [Day 6 - Parallel-plate capacitor/ Charged particles in fields][day6]  
  [Day 7 - Electric Flux][day7]  
  [Day 8 - Gauss's Law][day8]  
- <!--- [Day 9 - Electric Potential Energy][day9]-->  
- <!--- [Day 10 - Electric Potential][day10]  -->
- <!--- [Day 11 - Potential to Field][day11]    -->
- <!--- [Day 12 - Capacitors][day12]  -->
+ [Day 9 - Electric Potential Energy][day9]  
+ [Day 10 - Electric Potential][day10]  
+ [Day 11 - Potential to Field][day11]    
+ [Day 12 - Capacitors][day12]  
  <!--- [Day 13 - Current][day13]  -->
  <!--- [Day 14 - Conductivity][day14]-->    
  <!--- [Day 15 - Simple Circuits][day15]-->     
