@@ -90,7 +90,7 @@ entries:
       output: web, pdf
 
     - title: Week 5 - 3D Plot (Electric Potential)
-      url: /course_docs\/numericalHW\/potentialPlot.ipynp
+      url: /course_docs\/numericalHW\/potentialPlot.ipynb
       output: web, pd
 
     - title: Week 6 - Contour Plots
