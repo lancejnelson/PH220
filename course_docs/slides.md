@@ -22,10 +22,10 @@ folder: course_docs
  [Day 10 - Electric Potential][day10]  
  [Day 11 - Potential to Field][day11]    
  [Day 12 - Capacitors][day12]  
- <!--- [Day 13 - Current][day13]  -->
- <!--- [Day 14 - Conductivity][day14]-->    
- <!--- [Day 15 - Simple Circuits][day15]-->     
- <!--- [Day 16 - Resistors][day16]    -->
+ [Day 13 - Current][day13]  
+ [Day 14 - Conductivity][day14]    
+ [Day 15 - Simple Circuits][day15]     
+ [Day 16 - Resistors][day16]    
  <!--- [Day 17 - RC circuits][day17]  -->
  <!--- [Day 18 - The magnetic Field][day18] --> 
  <!--- [Day 19 - Ampere's Law][day19]      -->
