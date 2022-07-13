@@ -26,17 +26,17 @@ folder: course_docs
  [Day 14 - Conductivity][day14]    
  [Day 15 - Simple Circuits][day15]     
  [Day 16 - Resistors][day16]    
- <!--- [Day 17 - RC circuits][day17]  -->
- <!--- [Day 18 - The magnetic Field][day18] --> 
- <!--- [Day 19 - Ampere's Law][day19]      -->
- <!--- [Day 20 - Magnetic Forces][day20]     -->
- <!--- [Day 21 - Magnetic Materials][day21]  -->
- <!--- [Day 22 - Magnetic Flux; Lenz's law][day22]-->  
- <!--- [Day 23 - Faraday's Law][day23]      -->
- <!--- [Day 24 - Inductors; LC circuits][day24]-->      
- <!--- [Day 25 - LR circuits][day25]      -->
- <!--- [Day 26 - Phasors; AC capacitor circuits][day26]-->   
- <!--- [Day 27 - RLC circuits][day27]      -->
+ [Day 17 - RC circuits][day17]  
+ [Day 18 - The magnetic Field][day18]  
+ [Day 19 - Ampere's Law][day19]      
+ [Day 20 - Magnetic Forces][day20]    
+ [Day 21 - Magnetic Materials][day21]  
+ [Day 22 - Magnetic Flux; Lenz's law][day22]  
+ [Day 23 - Faraday's Law][day23]      
+ [Day 24 - Inductors; LC circuits][day24]      
+ [Day 25 - LR circuits][day25]      
+ [Day 26 - Phasors; AC capacitor circuits][day26]   
+ [Day 27 - RLC circuits][day27]      
 
 [day1]: ../course_docs/slides/D1-IntroToPH220.pdf  
 [day2]: ../course_docs/slides/D2-Charge.pdf  
